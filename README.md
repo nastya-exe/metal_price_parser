@@ -26,9 +26,9 @@ make_graph.py - построение графиков для отправки в
 ### Описание бота:
 #### Две функции:
 1. Получение текущего курса золота или серебра /price <br>
-<img width="359" height="640" alt="cb1bdb01-7219-4288-bb9e-b3ccb96421d6" src="https://github.com/user-attachments/assets/1c2f5528-a083-4020-9f4c-783726029396" /> <br>
+<img width="359" height="640" alt="image" src="https://github.com/user-attachments/assets/093a8eb9-e13f-424a-894a-2defe45afc5e" /><br>
 2. Получение графиков за месяц, неделю, день /graph <br>
-<img width="359" height="640" alt="image" src="https://github.com/user-attachments/assets/69db7141-7934-4aec-b51b-539bfdc4d0fb" /> <br>
+ <img width="359" height="640" alt="image" src="https://github.com/user-attachments/assets/ec95ad4c-19b7-4e64-bdd4-a3498f725755" /><br>
 
 Графики с данными, полученные за неделю: <br>
 <img width="2560" height="1536" alt="image" src="https://github.com/user-attachments/assets/7b2e178a-c0b8-4912-a418-79095a80a46e" /> <br>
