@@ -23,13 +23,14 @@ def scrape_price_metal(url):
     info = WebDriverWait(driver=driver, timeout=5).until(
         EC.presence_of_element_located((By.CSS_SELECTOR, "span.m-chart-legend-value"))
     )
+    name_metal = (driver.find_element(By.CLASS_NAME, "mfd-chart-series-name")).text
 
     date = datetime.now().strftime('%Y-%m-%d %H:%M')
     price_str = info.text
     price_float = float(price_str.replace(' ', ''))
 
     driver.quit()
-    print(f'Запущен парсер, цена металла {price_str}')
+    print(f'Запущен парсер, цена металла: {price_str} {name_metal}')
 
     return date, price_str, price_float
 
