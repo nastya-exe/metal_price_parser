@@ -1,13 +1,11 @@
 import asyncio
 
-from aiogram.filters import Command, BaseFilter, CommandStart
-from aiogram.types import TelegramObject, Message, BotCommand, CallbackQuery, FSInputFile, InputMediaPhoto
+from aiogram.filters import Command, CommandStart
+from aiogram.types import Message, BotCommand, CallbackQuery, FSInputFile
 from aiogram import Dispatcher, types, Bot, F
 from aiogram.fsm.context import FSMContext
 from aiogram.fsm.storage.memory import MemoryStorage
-from aiogram.fsm.state import StatesGroup, State
-from aiogram.types import InputFile
-from aiogram.types import FSInputFile
+from aiogram.fsm.state import State
 
 from config import bot_token, url_silver, url_gold
 from keyboards import choose_metal_keyboard, choose_graph_keyboard, choose_metal_graph_keyboard
